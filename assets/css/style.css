@@ -1,0 +1,20 @@
+body{
+    background: blue;
+    color: yellow;
+}
+
+
+h1{
+    margin: auto;
+    
+}
+.container{
+    margin: auto;
+    width: 20%;
+    border-top: gray dotted;
+    border-bottom: gray dotted;
+    border-left: gray dotted;
+    border-right: gray dotted;
+    margin-bottom: 50%
+}
+
