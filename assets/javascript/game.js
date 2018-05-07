@@ -56,20 +56,18 @@
 
 
             //restart button
-            document.getElementById("restart-button").onclick 
-            };
-        }
-    }
-// this is to make the win counter add 1 whenever the user guess equals the random word!
-function win(){
-    if(winCounter === randomWord.length, lossCounter === randomWord.length)
-    document.getElementById('wins').textContent = wins;
-    document.getElementById('loss').textContent = loss;
-    
-       
+            document.getElementById("restart-button").onclick
+        };
     }
 }
+// this is to make the win counter add 1 whenever the user guess equals the random word!
+function win() {
+    if (winCounter === randomWord.length, lossCounter === randomWord.length)
+        document.getElementById('wins').textContent = wins;
+    document.getElementById('loss').textContent = loss;
+
 
 }
+
 
 startGame();       
