@@ -1,8 +1,18 @@
 body{
-    background: blue;
-    color: yellow;
+    background: gray;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+}
 
 h1{
     margin: auto;
@@ -11,10 +21,33 @@ h1{
 .container{
     margin: auto;
     width: 20%;
-    border-top: gray dotted;
-    border-bottom: gray dotted;
-    border-left: gray dotted;
-    border-right: gray dotted;
-    margin-bottom: 50%
+    border-top: black dotted;
+    border-bottom: black dotted;
+    border-left: black dotted;
+    border-right:black dotted;
+    margin-bottom: 50%;
 }
 
+#wins{
+    padding: 20px;
+}
+
+#loss{
+    padding: 20px;
+}
+
+#instructions{
+    border-bottom: gray dotted;
+    margin-bottom: 20px;
+}
+
+#baseball{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    position: relative;
+    top: 10px;
+}
